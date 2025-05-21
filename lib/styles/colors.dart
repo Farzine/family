@@ -20,3 +20,6 @@ const textFieldLabelColor = Color(0xff8B8B8B);
 const textFieldEnabledBorderColor = Color(0xffF0F0F0);
 const textFieldFocusedBorderColor = Color(0xff303030);
 const textFieldErrorBorderColor = Color(0xffDB0003);
+
+// screen background
+const screenBackgroundColor = Color(0xffFFFFFF);

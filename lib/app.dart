@@ -1,4 +1,5 @@
-import 'package:family/screens/forgot_password_screen.dart';
+import 'package:family/screens/signIn_screen.dart';
+import 'package:family/screens/splash_screen_2.dart';
 import 'package:family/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -59,7 +60,11 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const ForgotPasswordScreen(),
+      // home: const ForgotPasswordScreen(),
+      home: const SplashScreen(
+        nextScreen: SignInScreen(), 
+        duration: 3000, 
+      ),
     );
   }
 }
