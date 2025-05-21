@@ -1,4 +1,4 @@
-import 'package:family/screens/signIn_screen.dart';
+import 'package:family/screens/onboarding_screen.dart';
 import 'package:family/screens/splash_screen_2.dart';
 import 'package:family/styles/colors.dart';
 import 'package:flutter/material.dart';
@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const ForgotPasswordScreen(),
       home: const SplashScreen(
-        nextScreen: SignInScreen(), 
+        nextScreen: OnboardingScreen(), 
         duration: 3000, 
       ),
     );
