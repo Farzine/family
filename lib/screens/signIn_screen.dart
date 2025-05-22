@@ -92,7 +92,7 @@ class _SignInScreenState extends State<SignInScreen> {
           behavior: HitTestBehavior.opaque,
           child: SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(20, 116, 20, 0),
+              padding: const EdgeInsets.fromLTRB(20, 72, 20, 0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [

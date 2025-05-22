@@ -152,7 +152,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           behavior: HitTestBehavior.opaque,
           child: SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(20, 116, 20, 0),
+              padding: const EdgeInsets.fromLTRB(20, 72, 20, 0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -242,7 +242,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           duration: const Duration(milliseconds: 100),
                           height: (_isPasswordFocused ||
                                   passwordController.text.isNotEmpty)
-                              ? (!hasStrongPassword ? 90 : 36)
+                              ? (!hasStrongPassword ? 100 : 36)
                               : 0,
                           width: 327,
                           padding: const EdgeInsets.symmetric(vertical: 8),
